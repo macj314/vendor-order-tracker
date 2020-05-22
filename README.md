@@ -10,20 +10,33 @@ _A project to introduce the C# language and the .NET Core framework with MVC and
 
 ## Setup/Installation Requirements
 
+### Install .NET Core
+
+For Mac
+
+1. Download .Net Core 2.2 SDK [v2.2.106](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-2.2.106-macos-x64-installer).
+2. Run the installer and use the default settings it suggests.
+3. Confirm the installation is successful by running: $ dotnet --version in your terminal.
+
+For Windows
+
+1. Download .Net Core 2.2 SDK [v2.2.203](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.203-windows-x64-installer).
+2. Run the installer and use the default settings it suggests.
+3. Verify installation by running: dotnet --version in your terminal.
+
+Finally install the read only evaluation tool: dotnet script.
+Run this command in your terminal: dotnet tool install -g dotnet-script
+
+### Clone Repository
+
 1. Clone this repository from GitHub.
-2. Open the downloaded directory in a text editor of your choice.
-  (VSCode, Atom, etc.)
-3. To install the REPL dotnet script, run dotnet tool install -g dotnet-script in your terminal.
-4. Run the program with the commands dotnet restore, dotnet build, and dotnet run.
+2. Open the downloaded directory in a text editor of your choice. (VSCode, Atom, etc.)
+3. Run the program with the commands dotnet restore, dotnet build, and dotnet run.
 
 ## Known Bugs
 
 There are no known bugs at the time of this update.
  
-## Support and contact details
-
-_Have a bug or an issue with this application? [Open a new issue](https://github.com/jhvozdovich/music-organizer/issues) here on GitHub._
-
 ## Technologies Used
 
 * C#
