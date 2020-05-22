@@ -30,6 +30,5 @@ namespace VendorOrderTracker.Controllers
       Order.ClearAll();
       return View();
     }   
-
   }
 }
