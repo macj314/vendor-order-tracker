@@ -1,4 +1,14 @@
 body {
-  text-align: center;
+  background-color: #F2F2F2;
+  color: #8c8c8c;
   font-family: Baskerville;
+  text-align: center;
+}
+
+div.container {
+  background-color: blue;
+  height: 100%;
+  padding: 5%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
